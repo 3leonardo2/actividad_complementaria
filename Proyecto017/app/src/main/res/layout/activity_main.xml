@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="96dp"
+        android:layout_height="23dp"
+        android:fontFamily="sans-serif"
+        android:text="Fecha"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="340dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingresa una fecha"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="GRABAR"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="RECUPERAR"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="336dp"
+        android:layout_height="499dp"
+        android:background="#000000"
+        android:backgroundTint="#4CAF50"
+        android:ems="10"
+        android:gravity="start|top|left"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="214dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
